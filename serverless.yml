@@ -1,0 +1,13 @@
+org: mnadalc
+app: whatsapp-reminder
+service: whatsapp-reminder-pill
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  profile: mnadalc
+  region: eu-west-3
+
+functions:
+  whatsapp:
+    handler: handler.message

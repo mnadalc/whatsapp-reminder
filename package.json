@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp_reminder_pill",
+  "version": "1.0.0",
+  "description": "WhatsApp message to remember personal things at any time",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mnadalc/whatsapp-reminder.git"
+  },
+  "author": "Miguel Nadal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnadalc/whatsapp-reminder/issues"
+  },
+  "homepage": "https://github.com/mnadalc/whatsapp-reminder#readme",
+  "dependencies": {
+    "twilio": "^3.39.3"
+  }
+}
